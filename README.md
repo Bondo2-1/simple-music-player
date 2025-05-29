@@ -29,7 +29,7 @@ const songs = [
   {
     title: 'Your Song Title',
     artist: 'Artist Name',
-    cover: 'resources/cover-6.jpg',
-    file: 'resources/mysong.mp3'
+    cover: 'resources/NAME OF COVER SONG.jpg',
+    file: 'resources/SONG NAME.mp3'
   }
 ];
