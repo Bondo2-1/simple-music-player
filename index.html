@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Music Player</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="music-player">
+        <div class="album-art">
+          <img src="resources/cover-1.jpg" alt="Album Cover" id="cover">
+        </div>
+        <div class="song-info">
+          <h2 class="song-title">Lost in the City Lights</h2>
+          <p class="artist">Cosmo Sheldrake</p>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+          </div>
+          <div class="time-info">
+            <span class="current-time">0:00</span>
+            <span class="duration">3:15</span>
+          </div>
+        </div>
+        <div class="controls">
+          <button class="control-btn previous">
+            <img src="resources/Stop_and_play_fill-1.svg" alt="Previous">
+          </button>
+          <button class="control-btn play-pause">
+            <img src="resources/Play_fill.svg" alt="Play" class="play">
+          </button>
+          <button class="control-btn next">
+            <img src="resources/Stop_and_play_fill.svg" alt="Next">
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer"> 
+      Coded by <a href="https://github.com/Bondo2-1" target="_blank">Bondo2</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
