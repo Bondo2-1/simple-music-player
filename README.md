@@ -3,8 +3,6 @@
 A sleek and modern music player built using HTML, CSS, and JavaScript.  
 Features album art, play/pause, previous/next track, and a progress bar.
 
-![screenshot](resources/cover-1.jpg)
-
 ---
 
 ## 🚀 Features
